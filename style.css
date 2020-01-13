@@ -1,40 +1,139 @@
 body {
+  margin: 0;
+  padding: 0;
   text-align: center;
 }
 
+.upper {
+  height: 50px;
+  background-color: #f6eec7;
+}
+
 .fhid {
+  font-size: 150%;
   text-align: center;
   margin-top: 70px;
-  margin-bottom: 40px;
 }
-  .navb {
-    padding: 0;
-    margin-left: 60px;
-    margin-right: 60px;
-  }
-.row{
+
+#menu {
+  margin: 0;
+  padding: 0;
+  margin-top: 50px;
+}
+
+#menu li {
+  list-style: none;
+  display: inline-block;
+}
+
+#menu li a {
+  text-decoration: none;
+  position: relative;
+  color: rgb(128, 128, 128);
+  font-size: 120%;
+  font-weight: 200;
+  font-family: sans-serif;
+  display: block;
+  overflow: hidden;
+  transition: 0.7s all;
+  padding: 5px 50px;
+}
+
+#menu li a:before {
+  content: '';
+  width: 60px;
+  position: absolute;
+  border-bottom: 4px solid #313131;
+  bottom: 0;
+  right: 350px;
+  transition: 0.7s all;
+}
+
+#menu li a:hover:before {
+  right: 0;
+}
+
+#menu li a:hover {
+  color: rgb(0, 0, 0);
+}
+
+.row {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.imgb{
+
+.imga {
+  margin-top: 0px;
+  width: 100%;
+  border-radius: 25px 25px 0% 0%;
+}
+
+.imgb {
   width: 100%;
   height: 100%;
 }
-.imga{
-  width: 100%;
+
+.imgca {
+  border-radius: 0% 0% 0% 25px
 }
-.midh{
-  margin-top: 70px;
+
+.imgcb {
+  border-radius: 0% 0% 25px 0%;
+}
+
+.midh {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.divider {
+  margin-top: 50px;
   margin-bottom: 70px;
 }
-.midit{
-  margin-bottom: 100px;
+
+footer a {
+  color: rgb(0, 0, 0);
 }
-footer{
-  font-weight: lighter;
+
+.footr {
+  background-color: rgb(230, 228, 228);
+}
+
+.css-input {
+  padding: 3px;
   font-size: 15px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  height: 70px;
-  background-color: rgb(230,228,228);
+  border-width: 0px;
+  border-color: #CCCCCC;
+  background-color: #FFFFFF;
+  color: #000000;
+  width: 120%;
+  border-style: solid;
+  box-shadow: 0px 0px 7px rgba(66, 66, 66, .75);
+}
+
+.css-input:focus {
+  outline: none;
+}
+
+.myButton {
+  width: 120%;
+	box-shadow:inset 0px 1px 3px 0px #9fb4f2;
+	background-color:#000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding: 10px 30px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #283966;
+}
+.myButton:hover {
+	background-color:#becdd4;
+	text-decoration:none;
+	color:#ffffff;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
 }
