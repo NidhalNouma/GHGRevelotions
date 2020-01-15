@@ -7,13 +7,23 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Maven+Pro&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-  <div class="upper">
+    <div class="upm">
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-youtube"></a>
+      <a href="#" class="fa fa-instagram"></a>
+      <div class="upmr">
+      <button type="button" class="btn btn-outline-success">language</button>
 
-  </div>
-  <hr>
+      </div>
+    </div>
+
+  <hr class="firhr">
 
   <div class="container">
     <p class="fhid">GHG Revelotion</p>
@@ -29,32 +39,42 @@
         </center>
       </ul>
     </ul>
+  </div>
 
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <img class="imga" src="imgs/f4.jpg" alt="bg img1" id="circle" onclick="stop();">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm">
-          <img class="imgb imgca" src="imgs/f1.jpeg" alt="bg img1">
-        </div>
-        <div class="col-sm">
-          <img class="imgb" src="imgs/f2.jpg" alt="bg img1">
-        </div>
-        <div class="col-sm">
-          <img class="imgb imgcb" src="imgs/f3.jpeg" alt="bg img1">
+  <div class="container">
+    <div class="row">
+      <div id="carouselExampleSlidesOnly" class="carousel slide imgc" data-ride="carousel" data-interval="2000">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imgs/f4.jpg" class="d-block w-100 imgs" alt="...">
+            <div class="carousel-caption d-none d-md-block imgb">
+              <h5>First slide label</h5>
+              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              <button type="button" class="btn btn-info">Learn more</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="imgs/f2.jpg" class="d-block w-100 imgs" alt="...">
+            <div class="carousel-caption d-none d-md-block imgb">
+              <h5>Second slide label</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <button type="button" class="btn btn-info">Learn more</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="imgs/f4.jpg" class="d-block w-100 imgs" alt="...">
+            <div class="carousel-caption d-none d-md-block imgb">
+              <h5>Third slide label</h5>
+              <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+              <button type="button" class="btn btn-info">Learn more</button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <hr class="divider">
-  </div>
-
-  <div class="container create">
-    <div class="row">
+    <div class="row addp">
       <div class="col-sm">
-        <form class="createf">
+        <form class="createf createfr midd">
           <p>Create your own expert advisor starting from $30</p>
           <div class="form-group">
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="description"></textarea>
@@ -65,14 +85,34 @@
           <div class="form-group">
             <input type="file" class="form-control-file" id="exampleFormControlFile1">
           </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
+          <button type="submit" class="btn btn-dark">Submit</button>
         </form>
       </div>
       <div class="col-sm">
-        descvhbimckxjykjkMj,
+        <form class="createf createfr midd">
+          <h6 class="text-uppercase font-weight-bold">Useful links</h6>
+          <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <br>
+          <p>
+            Join our mailing list
+          </p>
+          <p>
+            hjvuqzr
+          </p>
+          <p>
+            hjvuqzr
+          </p>
+          <br>
+          <p>
+            <input type="text" class="css-input btnmid" placeholder="Enter your email" />
+          </p>
+          <p>
+            <a href="#" class="myButton btnmid">subscribe now</a>
+          </p>
+        </form>
       </div>
       <div class="col-sm">
-        <form class="createf">
+        <form class="createf createfg midd">
           <p>Create your own indicator starting from $40</p>
           <div class="form-group">
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="description"></textarea>
@@ -83,7 +123,7 @@
           <div class="form-group">
             <input type="file" class="form-control-file" id="exampleFormControlFile1">
           </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
+          <button type="submit" class="btn btn-dark">Submit</button>
         </form>
       </div>
     </div>
@@ -94,58 +134,58 @@
   <div class="container">
     <div class="row midit">
       <div class="col-sm-4">
-        <div class="card">
+        <div class="card midd">
           <div class="card-body">
             <h5 class="card-title">Special title treatment</h5>
             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-outline-success">Buy Now</a>
+            <a href="#" class="btn btn-outline-dark">Buy Now</a>
           </div>
         </div>
       </div>
       <div class="col-sm-4">
-        <div class="card">
+        <div class="card midd">
           <div class="card-body">
             <h5 class="card-title">Special title treatment</h5>
             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-outline-success">Buy Now</a>
+            <a href="#" class="btn btn-outline-dark">Buy Now</a>
           </div>
         </div>
       </div>
       <div class="col-sm-4">
-        <div class="card">
+        <div class="card midd">
           <div class="card-body">
             <h5 class="card-title">Special title treatment</h5>
             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-outline-success">Buy Now</a>
+            <a href="#" class="btn btn-outline-dark">Buy Now</a>
           </div>
         </div>
       </div>
     </div>
     <div class="row midit">
       <div class="col-sm-4">
-        <div class="card">
+        <div class="card midd">
           <div class="card-body">
             <h5 class="card-title">Special title treatment</h5>
             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-outline-success">Buy Now</a>
+            <a href="#" class="btn btn-outline-dark">Buy Now</a>
           </div>
         </div>
       </div>
       <div class="col-sm-4">
-        <div class="card">
+        <div class="card midd">
           <div class="card-body">
             <h5 class="card-title">Special title treatment</h5>
             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-outline-success">Buy Now</a>
+            <a href="#" class="btn btn-outline-dark">Buy Now</a>
           </div>
         </div>
       </div>
       <div class="col-sm-4">
-        <div class="card">
+        <div class="card midd">
           <div class="card-body">
             <h5 class="card-title">Special title treatment</h5>
             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-outline-success">Buy Now</a>
+            <a href="#" class="btn btn-outline-dark">Buy Now</a>
           </div>
         </div>
       </div>
@@ -157,15 +197,8 @@
   <footer class="page-footer font-small blue-grey lighten-5">
     <div class="container text-center text-md-left mt-5">
       <div class="row mt-3 dark-grey-text">
-        <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
-          <h6 class="text-uppercase font-weight-bold">GHG revelotion</h6>
-          <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-          <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-            consectetur
-            adipisicing elit.</p>
-        </div>
         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-          <h6 class="text-uppercase font-weight-bold">Products</h6>
+          <h6 class="text-uppercase font-weight-bold">most popular</h6>
           <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
           <p>
             <a class="dark-grey-text" href="#!">product1</a>
@@ -194,9 +227,22 @@
             <a href="#" class="myButton">subscribe now</a>
           </p>
         </div>
-        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-          <h6 class="text-uppercase font-weight-bold">Contact</h6>
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h6 class="text-uppercase font-weight-bold">most used</h6>
           <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>
+            <a class="dark-grey-text" href="#!">product1</a>
+          </p>
+          <p>
+            <a class="dark-grey-text" href="#!">product12</a>
+          </p>
+          <p>
+            <a class="dark-grey-text" href="#!">product13</a>
+          </p>
+          <p>
+            <a class="dark-grey-text" href="#!">product14</a>
+          </p>
+
         </div>
       </div>
     </div>

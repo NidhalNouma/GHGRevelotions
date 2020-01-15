@@ -2,11 +2,62 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
+  font-family: 'Maven Pro', sans-serif;
+  background-color: #f4efd3;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 8px;
+  font-size: 20px;
+  width: 30px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.8;
+}
+
+.upm{
+  padding-top: 10px;
+  padding-left: 10px;
+  width: 100%;
+  text-align: left;
+}
+.upmr{
+  display: inline;
+  margin-left: 80%;
+}
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.firhr{
+  margin-top: 10px;
+  padding: 0px;
 }
 
 .upper {
-  height: 50px;
-  background-color: #f6eec7;
+  /* height: 50px; */
+  margin-top: 8px;
+  background-color: #f4efd3;
 }
 
 .fhid {
@@ -18,7 +69,7 @@ body {
 #menu {
   margin: 0;
   padding: 0;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 #menu li {
@@ -29,14 +80,14 @@ body {
 #menu li a {
   text-decoration: none;
   position: relative;
-  color: rgb(128, 128, 128);
-  font-size: 120%;
+  color: rgb(0,0,0);
+  font-size: 100%;
   font-weight: 200;
-  font-family: sans-serif;
+  font-family: 'Maven Pro', sans-serif;
   display: block;
   overflow: hidden;
   transition: 0.7s all;
-  padding: 5px 50px;
+  padding: 5px 60px;
 }
 
 #menu li a:before {
@@ -54,7 +105,7 @@ body {
 }
 
 #menu li a:hover {
-  color: rgb(0, 0, 0);
+  color: #9656a1;
 }
 
 .row {
@@ -62,24 +113,19 @@ body {
   margin-bottom: 20px;
 }
 
-.imga {
-  margin-top: 0px;
-  width: 100%;
-  border-radius: 25px 25px 0% 0%;
-}
-
-.imgb {
+.imgc {
   width: 100%;
   height: 100%;
+  padding: 0px 50px;
+}
+.imgs {
+  width: 100%;
+  height: 650px;
+}
+.imgb {
+  margin-bottom: 25%;
 }
 
-.imgca {
-  border-radius: 0% 0% 0% 25px
-}
-
-.imgcb {
-  border-radius: 0% 0% 25px 0%;
-}
 
 .create {
   margin-top: 40px;
@@ -91,6 +137,25 @@ body {
   border-width: 3px;
   border-color: #CCCCCC;
 }
+.addp {
+  padding: 0px 35px;
+}
+
+.btnmid {
+  width: 100% !important;
+}
+
+.midd{
+  background-color: #cccccc;
+}
+
+.createfr {
+  /* border-radius: 0 0 0 15px; */
+}
+
+.createfg {
+  /* border-radius: 0 0 15px 0; */
+}
 
 .midh {
   margin-top: 50px;
@@ -101,13 +166,17 @@ body {
   margin-top: 50px;
   margin-bottom: 70px;
 }
-
+footer{
+  padding-top: 1%;
+  background-color: rgba(127,127,127, 1);
+}
 footer a {
   color: rgb(0, 0, 0);
 }
 
 .footr {
   background-color: rgb(230, 228, 228);
+  width: 100%;
 }
 
 .css-input {
