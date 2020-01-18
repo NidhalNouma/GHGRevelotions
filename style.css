@@ -26,8 +26,9 @@ body {
   text-align: left;
 }
 .upmr{
-  display: inline;
-  margin-left: 80%;
+  position: absolute;
+  right: 5px;
+  top: 5px;
 }
 /* Set a specific color for each brand */
 
@@ -158,8 +159,9 @@ body {
 }
 
 .midh {
-  margin-top: 50px;
   margin-bottom: 30px;
+  margin-left: 15px;
+  text-align: left;
 }
 
 .divider {
@@ -220,4 +222,33 @@ footer a {
 
 .pag {
   margin-top: 50px;
+}
+
+
+/* .typpro{
+  display: inline;
+  width: 15%;
+}
+.eapro{
+  display: inline;
+  width: 55%;
+}
+.pubpro{
+  display: inline;
+  width: 15%;
+}
+.vl {
+  display: inline-flex;
+  border-left: 2px solid black;
+  height: 100px;
+} */
+.hrpro{
+  margin: 28px;
+}
+
+.card{
+  background-color: #f0efef;
+  display: inline-block;
+  margin-left: 0;
+  margin-bottom: 10px;
 }
